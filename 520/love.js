@@ -162,14 +162,14 @@
       ctx.translate(point.x, point.y);
       ctx.scale(scale, scale);
       ctx.moveTo(0, 0);
-      ctx.lineTo(50, 50);
-      ctx.lineTo(100, 50);
+      ctx.lineTo(15, 15);
+      ctx.lineTo(60, 15);
       ctx.stroke();
 
       ctx.moveTo(0, 0);
       ctx.scale(0.75, 0.75);
       ctx.font = "12px 微软雅黑,Verdana"; // 字号肿么没有用? (ˉ(∞)ˉ)
-      ctx.fillText("Click Here if you want to see my heart", 90, 100);
+      ctx.fillText("Click Here if you want to see my heart", 23, 10);
       ctx.restore();
     },
     clear: function () {
