@@ -169,12 +169,12 @@
       ctx.moveTo(0, 0);
       ctx.scale(0.75, 0.75);
       ctx.font = "12px 微软雅黑,Verdana"; // 字号肿么没有用? (ˉ(∞)ˉ)
-      ctx.fillText("Teresita Click Here if you want to see my heart", 23, 10);
+      ctx.fillText("Teresita Click Here if you want to see my feelings", 23, 10);
       ctx.restore();
     },
     clear: function () {
       var ctx = this.tree.ctx, cirle = this.cirle;
-      var point = cirle.point, scale = cirle.scale, radius = 200;
+      var point = cirle.point, scale = cirle.scale, radius = 26;
       var w = h = (radius * scale);
       ctx.clearRect(point.x - w, point.y - h, 4 * w, 4 * h);
     },
